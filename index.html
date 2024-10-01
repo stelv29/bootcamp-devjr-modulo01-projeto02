@@ -4,58 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 02 - Enquete</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class = "conteiner">
 
-        <div>
+        <div class = "header-tittle" >
             <h1>GAMES LOVERS ENQUETE</h1>
         </div>
 
-        <div>
-            <p>
-                Estamos escolhendo nessa enquete os melhores estilos de jogos entre os afixionados por video games Participe da nossa enquete e escolha entre os três finalistas!
-            </p>
+        <div class = "header-subtittle">
             
-            <p>
-                A sua escolha é muito importante para nós
-            </p>
-            
-            <p>
-                No final da enquete iremos sortear um brinde entre os participantes.
-            </p>
+            <p>Estamos escolhendo nessa enquete os melhores estilos de jogos entre os afixionados por video games Participe da nossa enquete e escolha entre os três finalistas!</p>
 
-            <div>
-                <p>
+            <p>A sua escolha é muito importante para nós</p>
+
+            <p>No final da enquete iremos sortear um <strong>brinde</strong> entre os participantes.</p>
+                
+        </div>
+        
+            <div class="conteiner-intern">
+                <div class="tittle">
+                    <p>
                     Digite os seus dados e escolha entre os três finalistas!
-                </p>
+                    </p>
+                </div> 
 
-                    <input class= "input" type="text" placeholder="Digite seu nome" />
-                    <br>
-                    <br>
-                    <input class= "input" type="email" placeholder="Digite seu email" />
-            </div>
-            <div>
-                <div>
-                    <p>
-                        Esportes
-                    </p>
-                    <object data="assets/sports_soccer_white.svg" type="image/svg+xml"></object>
-                    <button>Votar</button>
-                </div>
-                <div>
-                    <p>
-                        Simulação
-                    </p>
-                    <object data="assets/local_airport_white.svg" type="image/svg+xml"></object>
-                    <button>Votar</button>
-                </div>
-                <div>
-                    <p>
-                        Estratégia
-                    </p>
-                    <object data="assets/psychology_white.svg" type="image/svg+xml"></object>
-                    <button>Votar</button>
+                <form >
+                    <input type="text" placeholder="Digite seu nome" />
+                    <input type="email" placeholder="Digite seu email" />
+                </form>
+
+                <div class = "flex-conteiner">
+                    <div class = "box-finalists">
+                        <div class = "box-finalists-intern">
+                            <p>
+                                Esportes
+                            </p>
+                            <object data="assets/sports_soccer_white.svg" type="image/svg+xml"></object>
+                            <button>Votar</button>
+                        </div>
+                    </div>
+                    
+                        <div class ="box-finalists">
+                            <div class = "box-finalists-intern">
+                                    <p>
+                                    Simulação
+                                    </p>
+                                    <object data="assets/local_airport_white.svg" type="image/svg+xml"></object>
+                                    <button>Votar</button>
+                            </div>
+                        </div>
+                        <div class = "box-finalists">
+                            <div class ="box-finalists-intern">
+                                <p>
+                                    Estratégia
+                                </p>
+                                <object data="assets/psychology_white.svg" type="image/svg+xml"></object>
+                                <button>Votar</button>
+                            
+                            </div>
+                        </div>
+                    
                 </div>
             </div>
             <div>
