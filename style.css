@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #CCC;
@@ -35,6 +36,7 @@ body{
 .texto{
     padding: 10px;
 }
+
 .conteiner-intern{
     background-image:  linear-gradient( to top, #200D24, #5E1D69 );
     margin: auto;
@@ -47,15 +49,12 @@ body{
     text-align: center;
     font-size: 30px;
     margin-top: 20px;
-    padding: 20px;
-    
+    padding: 20px; 
 }
 
-.form{
-    
+.form{  
     display: block; 
-    align-items: center; 
-    
+    align-items: center;    
 }
 
 input{
@@ -66,21 +65,25 @@ input{
     font-size: 16px;
     width: 85%;
 }
+
 input:focus{
     outline: none;
 }
- .votos{
+
+.votos{
     padding: 20px;
     display: flex;
     justify-content: space-between;
     gap: 30px;
     
- }
+}
+
 .caixa-externa{
     background-image: linear-gradient(to bottom,#2637DA,#33298C);
     padding: 10px;
     border-radius: 5px;
 }
+
 .caixa-interna{
     background-image: linear-gradient(to bottom,#3D5EEE,#71CAFE);
     border-radius: 5px;
@@ -97,13 +100,11 @@ button{
     cursor: pointer;
 }
 
-
 .texto-caixa{
     color: #FFF;
     padding: 20px;
     font-size: 30px;
 }
-
 
 .rodape{
     color: #FFF;
@@ -111,26 +112,31 @@ button{
 }
 
 @media screen and (max-width: 620px){
-    
-    
+
     .conteiner{
         width: 90%;
     }
+
     .conteiner-intern{
         width: 85%;
     }
+
     .header-subtittle{
         padding: 0;
     }
+
     .votos{
         flex-direction: column;
     }
+
     .texto{
         font-size: 15px;
     }
+    
     .tittle{
         font-size: 25px;
     }
+
 }
     
 
