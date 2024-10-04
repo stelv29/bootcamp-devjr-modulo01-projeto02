@@ -5,8 +5,9 @@
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #CCCCCC;
+    background-color: #CCC;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .conteiner{
@@ -44,7 +45,7 @@ body{
 .tittle{
     color: #FFF; 
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 30px;
     margin-top: 20px;
     padding: 20px;
     
@@ -109,6 +110,28 @@ button{
     padding: 10px;
 }
 
-
+@media screen and (max-width: 620px){
+    
+    
+    .conteiner{
+        width: 90%;
+    }
+    .conteiner-intern{
+        width: 85%;
+    }
+    .header-subtittle{
+        padding: 0;
+    }
+    .votos{
+        flex-direction: column;
+    }
+    .texto{
+        font-size: 15px;
+    }
+    .tittle{
+        font-size: 25px;
+    }
+}
+    
 
 
